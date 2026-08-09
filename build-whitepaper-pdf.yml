@@ -1,0 +1,43 @@
+name: Build Whitepaper PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'whitepaper/**'
+      - 'roadmap/**'
+      - 'scripts/build-pdf.sh'
+  release:
+    types: [created]
+  workflow_dispatch: {}
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pandoc + LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra
+
+      - name: Build PDF
+        run: |
+          chmod +x scripts/build-pdf.sh
+          ./scripts/build-pdf.sh
+
+      - name: Upload PDF as build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: freclean-whitepaper
+          path: dist/freclean-whitepaper.pdf
+
+      # When this run was triggered by publishing a GitHub Release, attach the
+      # PDF directly to that release so investors downloading from the
+      # Releases page get the PDF, not just source files.
+      - name: Attach PDF to release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/freclean-whitepaper.pdf
