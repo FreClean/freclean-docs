@@ -1,4 +1,4 @@
-# 16 — Security Architecture
+# 16 - Security Architecture
 
 ## Layered controls
 
@@ -21,7 +21,7 @@ flowchart TB
 | `freclean-dapp` | No private key or seed phrase ever requested/stored; signing happens entirely in the user's wallet |
 | `freclean-admin` | Role-gated routes and navigation matching freclean-api's permission model |
 
-Each repository ships its own `SECURITY.md` with specifics and known gaps — this section summarizes, it does not replace them.
+Each repository ships its own `SECURITY.md` with specifics and known gaps - this section summarizes, it does not replace them.
 
 ## Secrets management
 
@@ -31,7 +31,7 @@ No repository commits a real secret. `.env.example` files document required vari
 
 - No dependency vulnerability scanning in CI yet (tracked in `freclean-api`'s roadmap).
 - No WalletConnect session support yet in `freclean-dapp` (tracked in that repo's README).
-- No production data layer yet (`freclean-api` runs on an in-memory store) — see `14-database-architecture.md`.
+- No production data layer yet (`freclean-api` runs on an in-memory store) - see `14-database-architecture.md`.
 - No CSP headers configured at the hosting layer yet.
 
-Publishing known gaps openly is a deliberate choice — see the realism principle in `24-legal-policy-framework.md`.
+Publishing known gaps openly is a deliberate choice - see the realism principle in `24-legal-policy-framework.md`.

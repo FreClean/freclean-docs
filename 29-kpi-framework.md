@@ -1,4 +1,4 @@
-# 29 — KPI Framework
+# 29 - KPI Framework
 
 ## Operational KPIs
 
@@ -23,8 +23,8 @@
 
 ## Entrepreneurship KPIs
 
-See `freclean-entrepreneurship/docs/13-performance-metrics.md` — orders, payments, and reviews per entrepreneur, sourced from real transaction data rather than self-reporting.
+See `freclean-entrepreneurship/docs/13-performance-metrics.md` - orders, payments, and reviews per entrepreneur, sourced from real transaction data rather than self-reporting.
 
 ## Dashboards
 
-`freclean-admin`'s Reports and Analytics sections are built to consume these metrics once real data volume exists — see that repo's README. They currently render correctly-empty states rather than placeholder numbers.
+`freclean-admin`'s Reports and Analytics sections are built to consume these metrics once real data volume exists - see that repo's README. They currently render correctly-empty states rather than placeholder numbers.

@@ -4,16 +4,16 @@ FreClean's single reference whitepaper, roadmap, and cross-ecosystem documentati
 
 ## Get the PDF
 
-A full, professionally typeset PDF of this whitepaper is built automatically by CI on every change and attached to [GitHub Releases](../../releases) — that's the version to hand to an investor. It's also available as a downloadable build artifact on the [Actions](../../actions/workflows/build-whitepaper-pdf.yml) tab for any commit.
+A full, professionally typeset PDF of this whitepaper is built automatically by CI on every change and attached to [GitHub Releases](../../releases) - that's the version to hand to an investor. It's also available as a downloadable build artifact on the [Actions](../../actions/workflows/build-whitepaper-pdf.yml) tab for any commit.
 
-To build it yourself locally: see `scripts/build-pdf.sh`.
+To build it yourself locally: run `./build-pdf.sh` from this repository root.
 
 ## Structure
 
 ```
-whitepaper/    33 numbered sections — the whitepaper itself (see table below)
-roadmap/       ROADMAP.md — phased execution plan (Phase 0 → Phase 9)
-scripts/       build-pdf.sh — combines whitepaper/ + roadmap/ into one PDF via pandoc
+00-*.md        33 numbered sections - the whitepaper itself (see table below)
+ROADMAP.md     Phased execution plan (Phase 0 - Phase 9)
+build-pdf.sh   Combines the numbered docs and roadmap into one PDF via pandoc
 ```
 
 ## Whitepaper contents
@@ -56,11 +56,11 @@ scripts/       build-pdf.sh — combines whitepaper/ + roadmap/ into one PDF via
 
 ## The one rule this whole repository follows
 
-**A status is stated as current, in development, planned, or demo — never presented as more advanced than it actually is.** See `whitepaper/24-legal-policy-framework.md` for the full statement of this principle. If you find a claim anywhere in this repository (or any other FreClean repository) that overstates FreClean's actual status, it should be corrected — that's a bug, not a style choice.
+**A status is stated as current, in development, planned, or demo - never presented as more advanced than it actually is.** See `24-legal-policy-framework.md` for the full statement of this principle. If you find a claim anywhere in this repository (or any other FreClean repository) that overstates FreClean's actual status, it should be corrected - that's a bug, not a style choice.
 
 ## How this connects to the rest of the ecosystem
 
-This repo is documentation-only — it has no code that other repositories depend on. It exists so that `freclean-website`, `freclean-api`, `freclean-payment`, `freclean-products`, `freclean-operations`, and `freclean-entrepreneurship` all have one shared, authoritative explanation of the business and technical strategy behind them, instead of that context living only in each repo's own README.
+This repo is documentation-only - it has no code that other repositories depend on. It exists so that `freclean-website`, `freclean-api`, `freclean-payment`, `freclean-products`, `freclean-operations`, and `freclean-entrepreneurship` all have one shared, authoritative explanation of the business and technical strategy behind them, instead of that context living only in each repo's own README.
 
 ## License
 

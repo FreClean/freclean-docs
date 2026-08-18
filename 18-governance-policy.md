@@ -1,4 +1,4 @@
-# 18 — Governance Policy
+# 18 - Governance Policy
 
 ## Structure
 
@@ -9,7 +9,7 @@
 
 ## Founder role
 
-Sets overall company direction, holds founder-level responsibilities as defined in this policy, and participates in treasury and governance decisions alongside the management group — not unilaterally for significant matters (see `17-treasury-policy.md`).
+Sets overall company direction, holds founder-level responsibilities as defined in this policy, and participates in treasury and governance decisions alongside the management group - not unilaterally for significant matters (see `17-treasury-policy.md`).
 
 ## Management group
 
@@ -30,13 +30,13 @@ Sets overall company direction, holds founder-level responsibilities as defined 
 
 ## Conflict of interest
 
-A formal conflict-of-interest policy is to be drafted and adopted as part of finalizing this governance structure — not yet published.
+A formal conflict-of-interest policy is to be drafted and adopted as part of finalizing this governance structure - not yet published.
 
 ## Internal controls & record-keeping
 
-- All treasury transactions are recorded — see `freclean-admin`'s Audit Logs.
+- All treasury transactions are recorded - see `freclean-admin`'s Audit Logs.
 - Governance decisions of record (appointments, policy changes) will be logged once the recording mechanism is finalized.
 
 ## Governance review
 
-This policy is reviewed on a cadence to be defined once the management group is operationally active — not less often than each five-year term renewal cycle.
+This policy is reviewed on a cadence to be defined once the management group is operationally active - not less often than each five-year term renewal cycle.

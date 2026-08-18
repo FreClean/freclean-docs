@@ -1,4 +1,4 @@
-# 26 — Disaster Recovery
+# 26 - Disaster Recovery
 
 ## Scope
 
@@ -18,4 +18,4 @@ No production infrastructure is provisioned yet (see `13-system-architecture.md`
 
 ## Treasury-specific recovery
 
-A documented key-custody recovery procedure (see `17-treasury-policy.md`) is required before any meaningful treasury balance is held on-chain — this is treated as a launch blocker for scaling Web3 payment volume, not a nice-to-have.
+A documented key-custody recovery procedure (see `17-treasury-policy.md`) is required before any meaningful treasury balance is held on-chain - this is treated as a launch blocker for scaling Web3 payment volume, not a nice-to-have.

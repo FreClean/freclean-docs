@@ -1,4 +1,4 @@
-# 10 — Valora Payment Flow
+# 10 - Valora Payment Flow
 
 ## Why Valora
 
@@ -27,7 +27,7 @@ sequenceDiagram
 
 ## Current limitation
 
-`freclean-dapp` today only detects an already-injected wallet provider (a desktop extension or a wallet's in-app browser). The most common real Valora flow — scanning a QR code from a separate phone — requires a WalletConnect v2 session, which is not yet implemented. This is documented, not hidden, in `freclean-dapp/README.md` and `freclean-dapp/SECURITY.md`.
+`freclean-dapp` today only detects an already-injected wallet provider (a desktop extension or a wallet's in-app browser). The most common real Valora flow - scanning a QR code from a separate phone - requires a WalletConnect v2 session, which is not yet implemented. This is documented, not hidden, in `freclean-dapp/README.md` and `freclean-dapp/SECURITY.md`.
 
 ## What Valora never sees or sends to FreClean
 

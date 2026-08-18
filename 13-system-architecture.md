@@ -1,4 +1,4 @@
-# 13 — System Architecture
+# 13 - System Architecture
 
 ## Request flow (typical booking + payment)
 
@@ -32,5 +32,5 @@ sequenceDiagram
 ## Service boundaries
 
 - `freclean-api` owns all business data and is the single source of truth other services read from or write to.
-- `freclean-payment` never writes directly to `freclean-api`'s data store — it calls the same authenticated REST endpoints any other client would, keeping the boundary honest and auditable.
+- `freclean-payment` never writes directly to `freclean-api`'s data store - it calls the same authenticated REST endpoints any other client would, keeping the boundary honest and auditable.
 - `freclean-admin` and `freclean-dapp` are pure clients of `freclean-api`; neither holds business logic that duplicates what the API enforces.

@@ -1,4 +1,4 @@
-# 03 — Business Model
+# 03 - Business Model
 
 ```mermaid
 flowchart TB
@@ -22,7 +22,7 @@ flowchart TB
 | Cleaning services | Per-booking service fees | Active |
 | Products | Direct retail and wholesale sales | In development |
 | Entrepreneurship | Wholesale sales to enrolled entrepreneurs | Planned |
-| Web3 payments | Not a revenue source itself — a payment rail for the other three | In development |
+| Web3 payments | Not a revenue source itself - a payment rail for the other three | In development |
 
 Web3 payments are explicitly not a fifth revenue pillar; they are infrastructure that makes the other three easier to transact in, particularly for customers or entrepreneurs without reliable access to traditional banking.
 

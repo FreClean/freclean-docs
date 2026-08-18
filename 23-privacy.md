@@ -1,4 +1,4 @@
-# 23 — Privacy
+# 23 - Privacy
 
 ## What FreClean collects
 
@@ -12,7 +12,7 @@
 ## What FreClean does not collect
 
 - Wallet private keys or seed phrases, ever, under any circumstance.
-- Full card numbers (handled by a card processor once one is integrated — not stored by FreClean systems).
+- Full card numbers (handled by a card processor once one is integrated - not stored by FreClean systems).
 - Government ID numbers, unless a future legal requirement makes this necessary, in which case this policy will be updated before that collection begins.
 
 ## Data sharing
@@ -21,7 +21,7 @@ Customer data is not sold to third parties. Data is shared only as needed to del
 
 ## Retention
 
-Retention periods are to be finalized as part of a complete privacy policy — see the working draft on `freclean-website/policies.html`, marked explicitly as not yet reviewed by counsel.
+Retention periods are to be finalized as part of a complete privacy policy - see the working draft on `freclean-website/policies.html`, marked explicitly as not yet reviewed by counsel.
 
 ## Your rights
 

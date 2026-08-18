@@ -1,4 +1,4 @@
-# 08 — Celo Integration
+# 08 - Celo Integration
 
 ## Current implementation status
 
@@ -24,7 +24,7 @@ stateDiagram-v2
     confirmed --> refunded
 ```
 
-No step can be skipped — enforced identically in `freclean-api`'s transition endpoint and `freclean-payment`'s verification worker.
+No step can be skipped - enforced identically in `freclean-api`'s transition endpoint and `freclean-payment`'s verification worker.
 
 ## Verification method
 
@@ -32,4 +32,4 @@ FreClean verifies a Web3 payment by checking Celo directly: either confirming a 
 
 ## Supported Assets Registry
 
-The registry is empty as of this document. An asset is added only with a real, verified contract address and a verification date — `freclean-payment`'s registry code refuses to register an entry without both. This is a deliberate constraint: FreClean will not claim support for a stablecoin it has not actually verified end-to-end.
+The registry is empty as of this document. An asset is added only with a real, verified contract address and a verification date - `freclean-payment`'s registry code refuses to register an entry without both. This is a deliberate constraint: FreClean will not claim support for a stablecoin it has not actually verified end-to-end.

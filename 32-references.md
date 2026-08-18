@@ -1,4 +1,4 @@
-# 32 — References
+# 32 - References
 
 ## FreClean repositories
 
@@ -16,7 +16,7 @@
 | `freclean-brand` | Brand assets and guidelines (pending) |
 | `freclean-security` | Cross-repository security policy (pending) |
 | `freclean-data` | Production data layer (planned) |
-| `freclean-contracts` | Smart contract policy — only if a genuine technical requirement arises |
+| `freclean-contracts` | Smart contract policy - only if a genuine technical requirement arises |
 | `.github` | Shared CI/CD templates and issue/PR templates |
 
 ## External references

@@ -1,4 +1,4 @@
-# 15 — API Architecture
+# 15 - API Architecture
 
 ## Structure
 
@@ -29,4 +29,4 @@ Sixteen of seventeen API modules are generated from one `createCrudRouter` facto
 
 ## Versioning
 
-No API versioning scheme is in place yet — the API is pre-production. A versioning strategy (e.g. `/v1`) will be adopted before any breaking change ships to a live client.
+No API versioning scheme is in place yet - the API is pre-production. A versioning strategy (e.g. `/v1`) will be adopted before any breaking change ships to a live client.

@@ -1,4 +1,4 @@
-# 20 — Operations Manual (Summary)
+# 20 - Operations Manual (Summary)
 
 Full operational documentation lives in `freclean-operations`. This section is a pointer and summary, kept short deliberately so the two documents don't drift apart.
 

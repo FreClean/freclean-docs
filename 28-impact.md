@@ -1,4 +1,4 @@
-# 28 — Impact
+# 28 - Impact
 
 ## Framework
 
@@ -15,4 +15,4 @@
 
 ## Publication policy
 
-No number in this section is populated until it is real and verifiable from the systems listed above. This whitepaper will be updated with actual figures as FreClean's operating history accumulates — not with projections presented as results.
+No number in this section is populated until it is real and verifiable from the systems listed above. This whitepaper will be updated with actual figures as FreClean's operating history accumulates - not with projections presented as results.

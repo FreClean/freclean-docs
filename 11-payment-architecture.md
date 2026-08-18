@@ -1,4 +1,4 @@
-# 11 — Payment Architecture
+# 11 - Payment Architecture
 
 ## Unified checkout flow
 
@@ -21,7 +21,7 @@ flowchart TD
 
 ## The abstraction layer
 
-`freclean-payment` defines one `PaymentProvider` interface implemented by three adapters (cash, card, Web3), so `freclean-api`'s checkout logic never needs to know which method it's calling — see `freclean-payment/src/core/PaymentProvider.ts`. Adding a fourth payment method in the future means writing one more adapter, not rewriting checkout.
+`freclean-payment` defines one `PaymentProvider` interface implemented by three adapters (cash, card, Web3), so `freclean-api`'s checkout logic never needs to know which method it's calling - see `freclean-payment/src/core/PaymentProvider.ts`. Adding a fourth payment method in the future means writing one more adapter, not rewriting checkout.
 
 ## Entities
 
@@ -34,8 +34,8 @@ flowchart TD
 
 ## Status discipline
 
-Every payment, regardless of method, moves through the same forward-only lifecycle (`requested → pending → detected → verified → confirmed`, or a terminal failure). This is enforced in two independent places — `freclean-api`'s transition endpoint and `freclean-payment`'s verification worker — so a payment cannot be marked confirmed by skipping verification in either system.
+Every payment, regardless of method, moves through the same forward-only lifecycle (`requested → pending → detected → verified → confirmed`, or a terminal failure). This is enforced in two independent places - `freclean-api`'s transition endpoint and `freclean-payment`'s verification worker - so a payment cannot be marked confirmed by skipping verification in either system.
 
 ## Extensibility
 
-New payment methods, and new Celo assets, can be added without rewriting core checkout logic — see the adapter pattern above and the Supported Assets Registry in `08-celo-integration.md`.
+New payment methods, and new Celo assets, can be added without rewriting core checkout logic - see the adapter pattern above and the Supported Assets Registry in `08-celo-integration.md`.
